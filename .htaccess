@@ -1,0 +1,5 @@
+#Protect Directory
+AuthName "Dialog prompt"
+AuthType Basic
+AuthUserFile /var/www/web.newagesme.com/xmas-admin/.htpasswd
+Require valid-user
